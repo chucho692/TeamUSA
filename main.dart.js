@@ -80610,7 +80610,7 @@ i=i==null?a2:J.bD(i)
 i=A.cR(i==null?b1:i,a2)
 g.m(0,b0,a+(i==null?0:i))}l=b4.$ti.i("cP<1,2>")
 return A.aoM(new A.av(new A.cP(b4,l),new A.aju(),l.i("av<t.E>")),b2,b3)},
-M(b2){var s,r,q,p,o,n,m,l,k,j,i,h,g=this,f=null,e="Agencias",d="agencias",c="Mediciones",b="mediciones",a="instalaciones",a0="entregaPremium",a1="entregaPop",a2="cancelaciones",a3="seguimientos",a4="Competencia",a5="competencia",a6=A.bp(b2,f,t.w).w.a.a,a7=a6<520,a8=a7?90:120,a9=a7?75:100,b0=a7?22:32,b1=a7?12.5:17
+M(b0){var s,r,q,p,o,n,m,l,k,j,i,h,g=this,f=null,e="agencias",d="mediciones",c="instalaciones",b="entregaPremium",a="entregaPop",a0="cancelaciones",a1="Follow up",a2="seguimientos",a3="competencia",a4=A.bp(b0,f,t.w).w.a.a,a5=a4<520,a6=a5?90:120,a7=a5?75:100,a8=a5?22:32,a9=a5?12.5:17
 if(g.r)return A.ef(new A.vr(f,f,f,f,f,f,f),f,f)
 s=g.w
 if(s!=null)return A.ef(A.ch("Error: "+s,f,f,f,f,f,f,f,f),f,f)
@@ -80623,47 +80623,47 @@ q=g.adQ(s,r)
 s=g.f
 s.toString
 p=g.ajs(s,g.e)
-s=A.arg(f,f,f,f,!0,f,f,f,f,A.ch("Reporte Team USA",f,f,f,f,A.f0(f,f,B.I6,f,f,f,f,f,f,f,f,a7?20:28,f,f,B.ck,f,f,!0,f,f,f,f,f,f,f,f),f,f,f))
-a7=g.e
-a7=A.ef(new A.He(new A.ajo(g,b2),f,f,f,f,f,f,!1,f,!0,f,A.ch(a7==null?"Selecciona periodo":B.c.Y(a7.a.k(0),0,10)+" - "+B.c.Y(g.e.b.k(0),0,10),f,f,f,f,f,f,f,f),f),f,f)
-if(a6>700){o=q.h(0,d)
+s=A.arg(f,f,f,f,!0,f,f,f,f,A.ch("Team USA Report",f,f,f,f,A.f0(f,f,B.I6,f,f,f,f,f,f,f,f,a5?20:28,f,f,B.ck,f,f,!0,f,f,f,f,f,f,f,f),f,f,f))
+a5=g.e
+a5=A.ef(new A.He(new A.ajo(g,b0),f,f,f,f,f,f,!1,f,!0,f,A.ch(a5==null?"Select Period":B.c.Y(a5.a.k(0),0,10)+" - "+B.c.Y(g.e.b.k(0),0,10),f,f,f,f,f,f,f,f),f),f,f)
+if(a4>700){o=q.h(0,e)
 if(o==null)o=0
-n=q.h(0,b)
+n=q.h(0,d)
 if(n==null)n=0
-m=q.h(0,a)
+m=q.h(0,c)
 if(m==null)m=0
-l=q.h(0,a0)
+l=q.h(0,b)
 if(l==null)l=0
-k=q.h(0,a1)
+k=q.h(0,a)
 if(k==null)k=0
-j=q.h(0,a2)
+j=q.h(0,a0)
 if(j==null)j=0
-i=q.h(0,a3)
+i=q.h(0,a2)
 if(i==null)i=0
-h=q.h(0,a5)
+h=q.h(0,a3)
 if(h==null)h=0
-h=A.oN(A.c([new A.dL(e,o,a8,a9,b0,b1,f),new A.dL(c,n,a8,a9,b0,b1,f),new A.dL("Instalacion",m,a8,a9,b0,b1,f),new A.dL("Premium",l,a8,a9,b0,b1,f),new A.dL("POP",k,a8,a9,b0,b1,f),new A.dL("Cancelacion",j,a8,a9,b0,b1,f),new A.dL("Seguimiento",i,a8,a9,b0,b1,f),new A.dL(a4,h,a8,a9,b0,b1,f)],t.p),B.ao,B.jK,B.aP,f)
-o=h}else{o=q.h(0,d)
+h=A.oN(A.c([new A.dL("Agency",o,a6,a7,a8,a9,f),new A.dL("Measure",n,a6,a7,a8,a9,f),new A.dL("Install",m,a6,a7,a8,a9,f),new A.dL("Premium",l,a6,a7,a8,a9,f),new A.dL("POP",k,a6,a7,a8,a9,f),new A.dL("Cancel",j,a6,a7,a8,a9,f),new A.dL(a1,i,a6,a7,a8,a9,f),new A.dL("Compete",h,a6,a7,a8,a9,f)],t.p),B.ao,B.jK,B.aP,f)
+o=h}else{o=q.h(0,e)
 if(o==null)o=0
-n=q.h(0,b)
+n=q.h(0,d)
 if(n==null)n=0
-m=q.h(0,a)
+m=q.h(0,c)
 if(m==null)m=0
-l=q.h(0,a0)
+l=q.h(0,b)
 if(l==null)l=0
-k=q.h(0,a1)
+k=q.h(0,a)
 if(k==null)k=0
-j=q.h(0,a2)
+j=q.h(0,a0)
 if(j==null)j=0
-i=q.h(0,a3)
+i=q.h(0,a2)
 if(i==null)i=0
-h=q.h(0,a5)
+h=q.h(0,a3)
 if(h==null)h=0
-h=new A.Mf(B.yM,10,10,A.c([new A.dL(e,o,a8,a9,b0,b1,f),new A.dL(c,n,a8,a9,b0,b1,f),new A.dL("Instalaciones",m,a8,a9,b0,b1,f),new A.dL("Premium",l,a8,a9,b0,b1,f),new A.dL("POP",k,a8,a9,b0,b1,f),new A.dL("Cancelaciones",j,a8,a9,b0,b1,f),new A.dL("Seguimientos",i,a8,a9,b0,b1,f),new A.dL(a4,h,a8,a9,b0,b1,f)],t.p),f)
+h=new A.Mf(B.yM,10,10,A.c([new A.dL("Agency",o,a6,a7,a8,a9,f),new A.dL("Measure",n,a6,a7,a8,a9,f),new A.dL("Install",m,a6,a7,a8,a9,f),new A.dL("Premium",l,a6,a7,a8,a9,f),new A.dL("POP",k,a6,a7,a8,a9,f),new A.dL("Cancel",j,a6,a7,a8,a9,f),new A.dL(a1,i,a6,a7,a8,a9,f),new A.dL("Compete",h,a6,a7,a8,a9,f)],t.p),f)
 o=h}n=A.dR(f,24,f)
-if(p.a===0)m=A.ef(A.ch("No hay personas con KPIs en el periodo.",f,f,f,f,f,f,f,f),f,f)
+if(p.a===0)m=A.ef(A.ch("No TM with KPIs in the period.",f,f,f,f,f,f,f,f),f,f)
 else{m=t.s
-m=new A.Ik(p,a6,A.c(["Agencias","Mediciones","Instalaciones","Entrega Premium","Entrega POP","Cancelaciones","Seguimientos","Competencia"],m),A.c(["AGENCIA","MEDICIONES","INSTALACIONES","PREMIUM","POP","CANCELACIONES","SEGUIMIENTOS","COMPETENCIA"],m),f)}return A.au8(s,f,A.aul(A.hf(A.c([new A.cl(new A.aN(16,16,16,16),a7,f),new A.cl(new A.aN(8,0,8,0),o,f),n,A.anV(A.jF(f,m,B.z,f,f,f,f,f,new A.aN(8,16,8,16),f,f,1/0),f,f,new A.aN(16,16,16,16))],t.p),B.ao,B.a_,B.aP),B.aZ))}}
+m=new A.Ik(p,a4,A.c(["Agencias","Mediciones","Instalaciones","Entrega Premium","Entrega POP","Cancelaciones","Seguimientos","Competencia"],m),A.c(["Agency","Measure","Install","Premium","POP","Cancel","Follow up","Compete"],m),f)}return A.au8(s,f,A.aul(A.hf(A.c([new A.cl(new A.aN(16,16,16,16),a5,f),new A.cl(new A.aN(8,0,8,0),o,f),n,A.anV(A.jF(f,m,B.z,f,f,f,f,f,new A.aN(8,16,8,16),f,f,1/0),f,f,new A.aN(16,16,16,16))],t.p),B.ao,B.a_,B.aP),B.aZ))}}
 A.ajp.prototype={
 $0(){var s=this.a
 s.r=!0
@@ -80721,7 +80721,7 @@ s=A.j(m).i("cP<1,2>")
 r=A.Z(new A.cP(m,s),s.i("t.E"))
 B.b.eU(r,new A.a1z(o))
 q=A.f0(n,n,n,n,n,n,n,n,n,n,n,k,n,n,B.jk,n,n,!0,n,1.1,n,n,n,n,n,n)
-m=A.c([A.arX(A.dR(A.ef(A.ch("PERSONA",n,n,n,n,q,n,n,n),n,n),n,l))],t.UR)
+m=A.c([A.arX(A.dR(A.ef(A.ch("TM",n,n,n,n,q,n,n,n),n,n),n,l))],t.UR)
 s=o.f
 p=A.P(s).i("a5<1,nt>")
 s=A.Z(new A.a5(s,new A.a1A(l,q),p),p.i("ae.E"))
